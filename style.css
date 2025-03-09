@@ -1,0 +1,241 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background: #ffd1dc;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden { display: none; }
+
+/* Login Page */
+#login-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffd1dc;
+}
+
+.angry-cat {
+    width: 150px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: pink;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bg.jpg");
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+  
+
+/* Love Letter */
+.love-letter {
+    background: #fff8dc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    font-family: 'Dancing Script', cursive;
+    box-shadow: 2px 2px 10px gray;
+}
+
+/* Timeline Section */
+.timeline-section {
+    text-align: center;
+    padding: 0px;
+    background: #ffd1dc;
+    height: auto;
+}
+
+/* Timeline Container */
+.timeline-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    position: relative;
+    height: 30%;
+}
+
+
+
+/* Timeline Items */
+.timeline-item {
+    display: inline-block;
+    width: 150px;
+    position: relative;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Heart-shaped Date */
+.heart-date {
+    background: #ff4d6d;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Events Text */
+.event {
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    width: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Alternate Positions */
+.top .event {
+    bottom: 100px;
+}
+
+.bottom .event {
+    top: 100px;
+}
+
+/* Hover Effects */
+.event:hover {
+    background: #ff85a2;
+    color: white;
+}
+
+/* Timeline Container - Horizontal Scrolling */
+.timeline-container {
+    overflow-x: auto;  /* Enables horizontal scrolling */
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 20px;
+    position: relative;
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Scrollbar Customization (Optional) */
+.timeline-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.timeline-container::-webkit-scrollbar-track {
+    background: #ffd1dc;
+    border-radius: 10px;
+}
+
+.timeline-container::-webkit-scrollbar-thumb {
+    background: #ff4d6d;
+    border-radius: 10px;
+}
+
+/* Timeline Line - Now Scrolls Horizontally */
+.timeline {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;  /* Adjust width dynamically based on content */
+    padding: 20px 10px;
+}
+
+
+/* Gallery */
+div.scroll-container {
+    background-color: #ff69b4;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 0px;
+  }
+  
+  div.scroll-container img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 300px;
+  }
+
+  div.scroll-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+div.scroll-container::-webkit-scrollbar-track {
+    background: #ffd1dc;
+    border-radius: 10px;
+}
+
+div.scroll-container::-webkit-scrollbar-thumb {
+    background: #ffcfd8;
+    border-radius: 10px;
+}
+
+/* Surprise Section */
+.surprise-content {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.blurred {
+    filter: blur(10px);
+}
+
+button {
+    background: #ff69b4;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
