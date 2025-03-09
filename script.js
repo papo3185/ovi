@@ -1,7 +1,7 @@
 // Simple Login System
 function checkPassword() {
     const password = document.getElementById("password").value;
-    if (password === "") {
+    if (password === "FreakyOvi123") {
         document.getElementById('login-page').innerHTML = '<img src="hehe ovi.png" alt="Angry Cat" class="angry-cat"><h2>AWWWWWWWW 😘😘😘</h2>';
         setTimeout(() => {
         
